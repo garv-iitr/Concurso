@@ -22,7 +22,8 @@ competitive-programming /
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=garvmehta991)
 ![Leetcode Stats](https://leetcard.jacoblin.cool/garvmehta991)
-![CodeChef Stats](https://codechef-readme-stats.onrender.com/{garvmehta991}?v=1)
+![CodeChef Stats](https://codechef-readme-stats.onrender.com/codechef?v=1)
+
 
 
 

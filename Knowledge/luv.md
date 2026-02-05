@@ -1,0 +1,44 @@
+# Roadmap
+- Number Theory
+    - GCD
+    - Binary Exponentiation 
+    - Modular Arithmetic
+    - Sieve
+    - Extended Euclidean Algorithm
+    - Euler Totient Function 
+- Data Structures 
+    - STL (Standard Template Library)
+    - Trie
+    - Segment Tree
+      - Merge Sort Tree
+      - Persistent Segment Trees
+  - Binar Indexeded Trees
+  - Sqrt Decomposition
+    - Mo's Algorithm
+  - *Heavy Ligth Decomposition*
+  - _Suffix Arrays_
+- Graph Theory
+  - BFS
+  - DFS
+  - Dijkstra
+  - Minimum Spanning Tree
+  - Disjoint Set Union 
+  - Lowest Common Ancestor
+  - *Bridges And Articulation Points*
+  - *Strongly Connected Components*
+    - Tarjan's Algorithm
+  - Miniumum and Maximum Flows
+    - Dinic's Algorithm
+  - Euler Tour
+- Dynamic Programming
+  - Bit Masking
+  - Sum over Subsets
+  - DP on Trees
+- Miscellaneous
+  - Binary Search
+  - Game Theory
+  - String Searching
+    - Rabin-Karp Algorithm
+    - Knuth-Morris-Pratt Algorithm
+    - Matrix Exponentiation
+    - Fast Fourier Transform 

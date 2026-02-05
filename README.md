@@ -21,6 +21,8 @@ competitive-programming /
 ## 📈 Progress Tracking
 
 ![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=garvmehta991)
+![Leetcode Stats](https://leetcard.jacoblin.cool/garvmehta991)
+
 
 
 

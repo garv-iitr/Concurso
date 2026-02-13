@@ -42,3 +42,42 @@
     - Knuth-Morris-Pratt Algorithm
     - Matrix Exponentiation
     - Fast Fourier Transform 
+
+# CP Course
+
+## Overflow, Precision Errors, Calculation Order
+### Decreasing order of Significance
+- Double
+- Float 
+- Long Long int
+- long int
+- int 
+- char
+### Operator Precedence
+|    Category    |              Operator              | Associativity |
+| :------------: | :--------------------------------: | :-----------: |
+|    Postfix     |          () [] -> . ++ --          |      LR       |
+|     Unary      |  + - ! ~ ++ -- (type)* &  sizeof   |      RL       |
+| Multiplicative |               * / %                |      LR       |
+|    Additive    |                + -                 |      LR       |
+|     Shift      |               << >>                |      LR       |
+|   Relational   |             < <= > =>              |      LR       |
+|    Equality    |               == !=                |      LR       |
+|  Bitwise AND   |                 &                  |      LR       |
+|  Bitwise XOR   |                 ^                  |      LR       |
+|   Bitwise OR   |                 \|                 |      LR       |
+|  Logical AND   |                 &&                 |      LR       |
+|   Logical OR   |                \|\                 |      LR       |
+|  Conditional   |                 ?:                 |      RL       |
+|   Assignment   | = += -= *= /= %= >>= <<= &= ^= \|= |      RL       |
+|     Comma      |                 ,                  |      LR       |
+### Int range
+- -10<sup>9</sup> < <font color = "cyan"> int </font> < 10<sup>9</sup> 
+- -10<sup>12</sup> < <font color = "yellow"> long int </font> < 10<sup>12</sup> 
+- -10<sup>18</sup> < <font color = "red"> long long int </font> < 10<sup>18</sup> 
+
+## Conditions , Loops , Jump Statements
+```
+cout << (a != b) ;
+```
+It is a valid code.

@@ -5,18 +5,21 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    int n;
-    cin>>n;
+    int n , k ;
+    cin>>n>>k;
     vector<int> arr(n,0) ;
+    int flag = 0; 
     for(int i = 0; i < n; i++){
-        cin>>arr[i] ;
+        cin>>arr[i];
+        if(arr[i] == k) flag = 1;
     }
-    sort(all(arr));
-    int x = 0 ;
-    for(int i = 0; i < n/2; i++){
-        if(arr[i] == arr[n-i-1]) x++ ;
+    if(flag) {
+        cout<<"YES" << endl;
     }
-    cout << n/2 - x <<endl;
+    else {
+        cout<<"NO" <<endl ;
+    }
+
 }
 
 int main(){

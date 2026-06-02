@@ -5,18 +5,15 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    int n;
+    int n ;
     cin>>n;
-    vector<int> arr(n,0) ;
-    for(int i = 0; i < n; i++){
+    vector<int> arr(n-1,0) ;
+    int sum = 0 ;
+    for(int i = 0; i < n-1; i++){
         cin>>arr[i] ;
+        sum+=arr[i];
     }
-    sort(all(arr));
-    int x = 0 ;
-    for(int i = 0; i < n/2; i++){
-        if(arr[i] == arr[n-i-1]) x++ ;
-    }
-    cout << n/2 - x <<endl;
+    cout<< -sum <<endl ;
 }
 
 int main(){

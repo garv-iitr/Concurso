@@ -10,7 +10,7 @@ void solve() {
     string x , s ;
     cin >> x >> s ;
     int flag = 0 , i; 
-    for(i = 0; i < m; i++){
+    for(i = 0; i < 6; i++){
         if(x.find(s) != string::npos) {
             flag = 1 ;
             break ;

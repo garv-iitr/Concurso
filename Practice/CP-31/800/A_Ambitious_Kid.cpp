@@ -5,24 +5,22 @@ using ll = long long;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    int n;
-    cin>>n;
-    vector<int> arr(n,0) ;
+    int n; 
+    cin>>n ;
+    vector<int> arr(n , 0) ;
+    int min = INT_MAX ;
     for(int i = 0; i < n; i++){
         cin>>arr[i] ;
+        arr[i] = abs (arr[i]) ;
+        if (min > arr[i]) min = arr[i] ;
     }
-    sort(all(arr));
-    int x = 0 ;
-    for(int i = 0; i < n/2; i++){
-        if(arr[i] == arr[n-i-1]) x++ ;
-    }
-    cout << n/2 - x <<endl;
+    cout << min << endl;
 }
 
 int main(){
     fast;
     int t = 1;
-    cin >> t;
+    // cin >> t;
     while(t--) solve();
     return 0;
 }

@@ -81,3 +81,14 @@
 cout << (a != b) ;
 ```
 It is a valid code.
+
+## C++ Strings
+
+- getline(cin, string) takes input of whole line including white spaces 
+- cin.ignore() ignores the white spaces after an input and moves to the next line 
+- string.push_back() inserts a character a end of the string and is faster than concatenating the string with character
+
+##  Arrays and Size limits
+
+
+
